@@ -1,0 +1,19 @@
+{
+  "name": "BrainfuckDiscordBot",
+  "version": "1.0.0",
+  "description": "Discord Bot wich allows users to run Brainfuck code with !bf and returns the output",
+  "main": "BrainfuckDiscordBot.js",
+  "scripts": {
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "brainfuck"
+  ],
+  "author": "Marc Popescu-Pfeiffer",
+  "license": "",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
