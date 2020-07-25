@@ -1,5 +1,6 @@
 //this libary is required to access the discord API
 const discord = require("discord.js");
+const bf = require("./bf.js");
 
 //this libary is required to load the .env file containing the discord login token
 require("dotenv/config");
@@ -77,6 +78,10 @@ client.on("message", async message => {
 client.login(process.env.TOKEN);
 
 //Function to execute the brainfuck code. Returns the output
-function executeBrainfuck(program, input, debug, bits) {
-	return false;
+function executeBrainfuck(program, input, debug) {
+	try {
+		return bf.runWithText(program, input, 1<<15, 1<<10, 1<<11);
+	} catch (error) {
+		return "[ERROR] " + error;
+	}
 }
