@@ -13,7 +13,9 @@ The bot supports direct messages as well as messages in server channels
 
 Simply write: `!bf your_code your_input debug`
 
-Replace your_code with your code and your_input with your input. The debug field can be either true or false. If the debug field is set the bot replies with some debug information about your code. Both debug and input are optional fields. The default values are "" and false
+Replace your_code with your code and your_input with your input. The debug field can be either true or false. If the debug field is set the bot replies with some debug information about your code. Both debug and input are optional fields. The default values are "" and false.
+
+The debug field is currently not implemented.
 
 ## How to code Brainfuck
 Brainfuck is a minimalistic language consisting of only 8 commands.
@@ -39,7 +41,7 @@ If u want to host the bot yourself follow this steps:
 	- Open your Application's settings
 	- Navigate to the Bot section on the left
 	- Under Token click Copy
-	- **NEVER SHARE YOUR DISCORD TOKEN WIHT ANYONE!!!**
+	- **NEVER SHARE YOUR DISCORD TOKEN WITH ANYONE!!!**
 4. Create a file named `.env` next to BrainfuckDiscordBot.js
 	- insert the following line: `TOKEN=your_token` and replace your_token with your token
 5. Use `node BrainfuckDiscordBot.js` to start the bot
