@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Discord Bot wich allows users to run Brainfuck code with !bf and returns the output",
   "main": "BrainfuckDiscordBot.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "discord",
     "discord-bot",
