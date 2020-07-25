@@ -6,6 +6,8 @@ See the [Wikipedia Article](https://en.wikipedia.org/wiki/Brainfuck) for more in
 By clicking this link u can invite the bot to your discord server. 
 > **[Invite BrainfuckDiscordBot](https://discord.com/api/oauth2/authorize?client_id=736655212130861157&permissions=2048&scope=bot)**
 
+**Warning: this bot is hosted on glitch free. That means sometimes it goes offline for no reason at all. I recommend u host it youreself!**
+
 ## Usage
 The bot supports direct messages as well as messages in server channels
 
