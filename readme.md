@@ -26,6 +26,8 @@ Brainfuck is a minimalistic language consisting of only 8 commands.
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Brainfuck)
 
+Also checkout this very helpful tool to generate text output [Brainfuck text output generator](https://copy.sh/brainfuck/text.html)
+
 ## Build
 If u want to host the bot yourself follow this steps:
 1. Install [NodeJS](https://nodejs.org/)
@@ -53,3 +55,6 @@ This Project ist licensed under the Apache License 2.0
 ## Contributors
 * @Popescu-PfeifferMarc
 * @DavidSichma
+
+## Bonus
+`+[----->+++<]>+.++++++++++++..----.+++.+[-->+<]>.-----------..++[--->++<]>+...---[++>---<]>.--[----->++<]>+.----------.++++++.-.+.+[->+++<]>.+++.[->+++<]>-.--[--->+<]>-.++++++++++++.--.+++[->+++++<]>-.++[--->++<]>+.-[->+++<]>-.--[--->+<]>-.++[->+++<]>+.+++++.++[->+++<]>+.----[->++<]>.[-->+<]>++.[----->++++<]>.-[->++++++<]>-.-[-->+++<]>-.+[++>---<]>.[--->++<]>-.-[-->+<]>--.+[-->+++<]>.+++[->++++<]>-.>+[--->++<]>++.+++++++++++.[->++++++<]>-.`
